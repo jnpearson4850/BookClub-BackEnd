@@ -1,5 +1,5 @@
 const Book = require("../src/models/Book");
-const mongoose = require("./connection")
+const mongoose = require("./connection");
 
 Book.find({}).remove(() => {
   Book.create({
