@@ -7,8 +7,6 @@ const Book = new Schema({
     author: String,
     description: String,
     image: String,
-    //below is in there to get comments model into book model
-    // comments: [Comment] grey out for now until comment model
 
 })
 
